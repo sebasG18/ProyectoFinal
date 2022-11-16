@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header.masthead h1,
+header.masthead .h1 {
+    font-size: 3.5rem;
+}
+
+header {
+    background-image: url("Fondo.png");
+    background-size: 1400px 650px;
+    background-repeat: no-repeat;
+    font-family: 'calibri';
+    width: 100%;
+    clear: both;
+    display: table;
+}
+
+header.masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 0rem;
+    padding-bottom: 0;
+}
+
+hr.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+}
+
+
+.menu {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+nav {
+    background-color: transparent;
+    float: left;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 60px;
+    padding: 0px 0;
+    float: left;
+    position: relative;
+}
+
+.container {
+    min-height: 60px;
+    width: 500px;
+    text-align: center;
+    margin: 0px auto
+}
+
+.container2 {
+    min-height: 160px;
+    width: 400px;
+    text-align: center;
+    margin: 0px auto
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+
+nav ul li a::before {
+    display: block;
+    content: '';
+    width: 0%;
+    background: #444;
+    height: 04px;
+    top: 0;
+    position: absolute;
+    transition: width 0.2s;
+
+}
+
+nav ul li a:hover:before {
+    width: 100%;
+}
+
+h1 {
+    display: block;
+    margin-block-start: 2.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.btn-xl {
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #f4623a;
+    border-color: #f4623a;
+}
+
+.btn {
+    display: inline-block;
+    font-family: "Merriweather Sans";
+}
+
+.Productos {
+    background-color: rgb(165, 219, 245);
+    color: #ffffff;
+    margin: auto;
+    padding: 40px;
+    overflow: hidden;
+}
+
+.item {
+    color: #444;
+    float: left;
+    width: calc(30% - 10px);
+    height: 150px;
+    margin-left: -100px;
+    margin-right: -40px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+.Pr {
+    color: black;
+    margin: auto;
+    padding: 10px;
+}
+
+.text1 {
+    color: black;
+    font-size: 150%;
+    margin: auto;
+    padding: 10px;
+}
+
+.inicio {
+    font-size: 140%;
+}
+
+.registro {
+    width: 400px;
+    background-color: transparent;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: black;
+    box-shadow: 7px 13px 37px #000;
+
+}
+
+.registro h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+
+.cajaTxt {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.registro p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.registro a {
+    color: blue;
+    text-decoration: none;
+}
+
+.registro a:hover {
+    color: rgb(26, 65, 66);
+    text-decoration: underline;
+}
+
+.registro .boton {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.registro .boton:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.registroMaster {
+    overflow: hidden;
+    background-image: url(fondoReg.png);
+}
+
+.redes {
+    text-align: center;
+    background-image: url(fondoReg.png);
+    font-family: 'calibri';
+    font-size: 18px;
+    overflow: hidden;
+}
